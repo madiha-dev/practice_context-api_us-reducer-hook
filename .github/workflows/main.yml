@@ -35,7 +35,7 @@ jobs:
       run: yarn build
     
     - name: installing surge
-      run: npm install -g surge
+      run: sudo npm install -g surge
     
     - name: deploying on surge
       run: surge ./build http://practice_context-api_use-reducer-hook.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
