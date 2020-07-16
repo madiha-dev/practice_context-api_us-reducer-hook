@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Parent from './Parent';
 import './App.css';
+import CounterContext from './CounterContext';
 
 function App() {
+  let [count, setCount] = useState(30)
+  
   return (
-    <div className="App">
-      <h1> yes cheers :D </h1>
-    </div>
+    <CounterContext.Provider value={count}>
+      <div>
+        <Parent/>
+      </div>
+    </CounterContext.Provider>
   );
 }
 
