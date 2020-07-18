@@ -30,6 +30,11 @@ jobs:
       with:
         # Yarn command
         cmd: install 
+
+    - name: npm test:ci
+      run: npm run test:ci
+      env:
+         CI: false
       
     - name: creating build  
       run: yarn build
