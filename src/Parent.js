@@ -1,9 +1,13 @@
 import React from 'react';
 import Child from './Child';
+import ChildReducer from './ChildReducer';
 
 const Parent = () => {
     return (
-        <Child/>
+        <div>
+            <Child/>
+            <ChildReducer/>
+        </div>
     );
 }
 
