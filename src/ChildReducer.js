@@ -3,10 +3,11 @@ import CounterReducer from './CounterReducer';
 
 const ChildReducer =() =>{
     let [state, dispatch] = useReducer(CounterReducer, 10) 
-    /*if 2nd value eg 10 missing , it will be undefined
-      this is initial value of reducer
+    /* [state, dispatch] called destructing : taking something from useReducer(? , ?)
+        if 2nd value eg 10 missing , it will be undefined
+        this is initial value of reducer
 
-      dispatch: 
+         dispatch (pass action here)
     */
     console.log(state)
     return(
