@@ -1,15 +1,15 @@
 //https://flaviocopes.com/react-hook-usereducer/
 
 const counterReducer = (state, action) => {
-//state: current state
-//action: defined /used under
-  switch (action) {
-    case 'INCREMENT':
-      return state + 1
-    case 'DECREMENT':
-      return state - 1
-    // default:
-    //   throw new Error()
+  //state: current state
+  //action: defined /used under
+    switch (action) {
+      case 'INCREMENT':
+        return state + 1
+      case 'DECREMENT':
+        return state - 1
+      // default:
+      //   throw new Error()
   }
 }
 
