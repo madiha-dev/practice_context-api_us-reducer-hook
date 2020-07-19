@@ -19,3 +19,10 @@ let countState = useState(34)
 }
 
 export default App;
+
+
+/*
+NOTE:
+Nevre use // after return (means in render portion)
+*/
+
