@@ -9,7 +9,7 @@ const ChildReducer =() =>{
 
          dispatch (pass action here)
     */
-    //console.log(state)
+    /*console.log(state) */
     return(
         <div>
            <p> This is Reducer Child</p> 

@@ -4,12 +4,12 @@ import CounterContext from './CounterContext';
 import './App.css';
 
 function App(){
-//let [count, setCount] = useState(55);
+/*let [count, setCount] = useState(55); */
 let countState = useState(34)
-//useState is now arry containing count, stCount variables
+/* useState is now arry containing count, stCount variables */
 
   return(
-    //<CounterContext.Provider value={count}>
+    /* <CounterContext.Provider value={count}> */
     <CounterContext.Provider value={countState}>
       <div>
         <Parent/>

@@ -2,8 +2,8 @@ import React, {useContext} from 'react';
 import counterContext from './CounterContext';
 
 const Child = () => {
-    let counterValue = useContext(counterContext);// like a getter
-    //let countState = useContext(CounterContext);
+    let counterValue = useContext(counterContext);/* like a getter */
+    /* let countState = useContext(CounterContext); */
     
     console.log(counterValue);
 
