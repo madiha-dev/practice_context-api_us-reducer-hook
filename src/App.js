@@ -5,7 +5,7 @@ import './App.css';
 
 function App(){
 //let [count, setCount] = useState(55);
-let countState = useState(34);
+let countState = useState(34)
 //useState is now arry containing count, stCount variables
 
   return(

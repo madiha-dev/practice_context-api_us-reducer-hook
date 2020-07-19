@@ -1,5 +1,3 @@
-//https://flaviocopes.com/react-hook-usereducer/
-
 const counterReducer = (state, action) => {
   //state: current state
   //action: defined /used under
@@ -14,3 +12,7 @@ const counterReducer = (state, action) => {
 }
 
 export default counterReducer;
+
+/*
+ https://flaviocopes.com/react-hook-usereducer/
+*/
