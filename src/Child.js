@@ -3,7 +3,7 @@ import CounterContext from './CounterContext';
 
 const Child = () => {
     let counterValue = useContext(CounterContext);// like a getter
-    let countState = 
+    //let countState = useContext(CounterContext);
     
     console.log(counterValue);
 
